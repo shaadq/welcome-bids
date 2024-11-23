@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #ff0700 !important;
+  border-color: #ff0700 !important;
+}
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:active {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+.btn-outline-dark {
+  border-color: #000 !important;
+  color: #000 !important;
+}
+.btn-outline-dark:hover {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}
+.custom-btn {
+  font-family: "Inter Regular";
+  border-radius: 8px;
+  padding: 12px 20px;
+}
+.text-black-light {
+  color: #abababaa;
+}
+.fw-light {
+  font-family: "Inter Light" !important;
+}

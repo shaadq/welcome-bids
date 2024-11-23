@@ -1,0 +1,81 @@
+.footer {
+  background-color: #1a1a1a;
+  h4 {
+    color: #fff;
+    size: 24px;
+    font-family: "Inter Semi-bold";
+    margin-bottom: 30px;
+  }
+  p {
+    color: #abababaa;
+    font-family: "Inter Light";
+  }
+  .footer-details-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+    .img-wrapper {
+      flex-shrink: 0; /* Prevent shrinking */
+      width: 25px; /* Fixed width */
+      margin-right: 8px; /* Add some spacing between the icon and the text */
+
+      img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+      }
+    }
+
+    span {
+      color: #abababaa;
+      font-family: "Inter Light";
+      font-size: 18px;
+      word-break: break-word; /* Break long words if needed */
+    }
+  }
+  .footer-socialmedia-wrapper {
+    display: flex;
+    align-items: center;
+    .item {
+      margin-right: 22px;
+    }
+  }
+  .footer-subscribe-wrapper {
+    padding-left: 10px;
+    overflow: hidden;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #fff;
+    width: fit-content;
+    input {
+      padding: 0 10px;
+      border: none;
+      height: 100%;
+      min-width: 250px;
+      font-family: "Inter Light";
+    }
+    input::placeholder {
+      color: #666666;
+      font-family: "Inter Light";
+    }
+    input:focus-visible {
+      border: none;
+      outline: none;
+    }
+    button {
+      border-radius: 0 6px 6px 0;
+      img {
+        width: 24px;
+        margin: 7px;
+      }
+    }
+  }
+  .form-check {
+    label {
+      text-transform: capitalize;
+      white-space: nowrap;
+    }
+  }
+}

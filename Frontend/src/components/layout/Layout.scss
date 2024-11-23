@@ -1,0 +1,9 @@
+.app-container {
+  height: 100vh;
+  padding-top: 96px;
+  .main-container {
+    min-height: calc(100vh - 96px);
+    overflow-y: auto;
+    // background-color: black;
+  }
+}
